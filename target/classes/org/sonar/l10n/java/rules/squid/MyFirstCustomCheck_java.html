@@ -1,0 +1,9 @@
+<p>This rule detects whether the parameter is the usage of "POJO"</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+    public void test(String bean){}
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+    public ResponseBean test(RequestBean bean){}
+</pre>
